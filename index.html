@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BK-004 - Frontend Developer in Training</title>
+    <meta name="description" content="Neema - Développeuse Front-End passionnée. Créant des expériences web claires, esthétiques et intuitives.">
+    <meta name="theme-color" content="#3e98f8">
+    <meta property="og:title" content="Neema - Frontend Developer">
+    <meta property="og:description" content="Portfolio de Neema, développeuse front-end spécialisée en HTML5, CSS3 et JavaScript.">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%233e98f8'>N</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&display=swap" rel="stylesheet">
+    <!-- Font Awesome (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Fond animé pro avec gradient et éléments géométriques -->
+    <div class="animated-background">
+        <!-- Gradient animé en arrière-plan -->
+        <div class="gradient-blob gradient-blob-1"></div>
+        <div class="gradient-blob gradient-blob-2"></div>
+        <div class="gradient-blob gradient-blob-3"></div>
+        <!-- Particules flottantes pour l'ambiance -->
+        <div class="particles"></div>
+    </div>
+
+    <header>
+        <nav>
+            <h1 class="logo"><a href="index.html">Neema<span>.dev</span></a></h1>
+            <ul class="nav-links">
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="projects.html">Projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero" class="hero">
+            <div class="hero-text">
+                <img src="images/BG.png" alt="Photo de Neema" class="hero-image">
+                <div>
+                    <h2>Salut, je suis Neema</h2>
+                    <p>Je transforme les idées en expériences web claires et esthétiques. 
+                        Front-end développeuse en formation, je conçois des sites beaux, 
+                        fonctionnels et intuitifs, toujours avec l'utilisateur au cœur de mon travail.</p>
+                    <a href="#projects" class="btn">voir mes projects</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>À propos de moi</h2>
+            <p>
+                Je suis une développeuse front-end en formation, passionnée par la création
+                d'interfaces web claires, structurées et agréables à utiliser.
+                Je me spécialise dans le HTML, CSS et JavaScript moderne.
+            </p>
+            <div style="margin-top: 20px;">
+                <a href="about.html" class="btn">En savoir plus</a>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2><i class="fas fa-code"></i> Compétences en cours d'apprentissage</h2>
+            <ul>
+                <li><i class="fab fa-html5" aria-label="HTML5"></i> HTML5 sémantique</li>
+                <li><i class="fab fa-css3-alt" aria-label="CSS3"></i> CSS3 & Responsive Design</li>
+                <li><i class="fab fa-js-square" aria-label="JavaScript"></i> JavaScript (bases solides)</li>
+                <li><i class="fab fa-git-alt" aria-label="Git"></i> Git & GitHub</li>
+            </ul>
+            <div style="margin-top: 30px; text-align: center;">
+                <a href="skills.html" class="btn"><i class="fas fa-star"></i> Voir toutes mes compétences</a>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2><i class="fas fa-briefcase"></i> Projets</h2>
+            <div class="projects-container">
+                <article class="project-card">
+                  <h3><i class="fas fa-folder-open"></i> Portofolio personnel <a href="cv.pdf" aria-label="Voir le site Portfolio"> <i class="fas fa-external-link-alt"></i></a></h3>
+                  <p>Un site web pour présenter mon parcours et mes Compétences en développement front-end.</p>
+                </article>
+
+                <article class="project-card">
+                  <h3><i class="fas fa-shopping-bag"></i> YUMEITO <a href="Yumeito.com" aria-label="Voir le site YUMEITO"> <i class="fas fa-external-link-alt"></i></a></h3>
+                  <p>Un site web e-commerce pour YUMEITO (crochet fait main).</p>
+                </article>
+
+                <article class="project-card">
+                  <h3><i class="fas fa-gem"></i> L'Or_design <a href="l'Or_design.com" aria-label="Voir le site L'Or design"> <i class="fas fa-external-link-alt"></i></a></h3>
+                  <p>Un site web e-commerce pour Laura (sac et accessoire fait main).</p>
+                </article>
+            </div>
+            
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Vous avez un projet en tête ? N'hésitez pas à me contacter!</p>
+            <p><a href="mailto:banzakilubaneema@gmail.com"><i class="fas fa-envelope"></i> banzakilubaneema@gmail.com</a></p>
+            <p><a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i> instagram</a></p>
+            <p><a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i> linkedin</a></p>
+            <p><a href="https://github.com/bk-004" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i> GitHub</a></p>
+            <div style="margin-top: 25px;">
+                <a href="contact.html" class="btn btn-large">Me Contacter</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Neema - Tous droits réservés.</p>
+    </footer>
+
+
+</body>
+</html>
